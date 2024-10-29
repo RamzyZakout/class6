@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class rrr : MonoBehaviour
@@ -7,7 +8,7 @@ public class rrr : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+           // ex1
         int counter = 0;
         while (counter < 20)
         {
@@ -23,11 +24,14 @@ public class rrr : MonoBehaviour
 
             }
 
-
-        } while (counter < 20)
+    //ex2
+    
+        }
+        int counter2=0;
+         while (counter2 < 20)
         {
             int v = Random.Range(1, 21);
-            Debug.Log(v); counter++;
+            Debug.Log(v); counter2++;
             if (v == 5)
             {
                 Debug.Log(v);
@@ -35,25 +39,24 @@ public class rrr : MonoBehaviour
                 Debug.Log("kabssa");
             }
         }
+        //ex3
         string[] word = { "cat", "dog", "car", "pizza", "hat", "fish", "tree", "monkey", "ball", "bird" };
         int count = 0;
         string jomla = "";
 
-        // Loop to build a sentence with 7 random words
+        
         while (count < 7)
         {
-            // Generate a random index within the array bounds
-            int randomIndex = Random.Range(0, word.Length);
-            string randomWord = word[randomIndex];
+           
+            int randomSave = Random.Range(0, word.Length);
+            string randomWord = word[randomSave ];
 
-            // Add the random word to the sentence
+            
             jomla += randomWord + " ";
             count++;
         }
 
-        // Print the full sentence
-        Debug.Log("Here is a funny sentence: " + jomla.Trim());
-        // Update is called once per frame
+        Debug.Log(jomla);
         void Update()
         {
 
