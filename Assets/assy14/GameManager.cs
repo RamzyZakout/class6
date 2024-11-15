@@ -7,16 +7,14 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       
-        Player playe=new Player("subhi",44);
+                 
+             Player playe=new Player("subhi",44);
         playe.heal(22);
-        Enemy enemy =new Enemy ("subhi",100);
+        Enemy enemy =new Enemy ();
         enemy.Attak(playe,50);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
-}
+
+    
+ 

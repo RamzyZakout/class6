@@ -17,12 +17,14 @@ public class character
     set{ health= value;
     
     } 
-  }
+  } public character()  : this ("",3){
+    
+
+}
   public character(string name,int health){
      Name=name;
     Health=health;
 
    }
-
-
+  
 }

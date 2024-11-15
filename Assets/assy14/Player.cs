@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Player : character
 {
-       public Player(string name, int health) : base(name, health)
-    {
+    public Player(string name,int health){
+this.Name=name;
+this.Health=health;
     }
     public void heal(int amount) {
         if(amount>0){
