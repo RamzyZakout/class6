@@ -8,7 +8,7 @@ public class Player : character
 this.Name=name;
 this.Health=health;
     }
-    public void heal(int amount) {
+    public  void heal(int amount) {
         if(amount>0){
             Health +=amount;
         } if(Health>100){
