@@ -3,11 +3,8 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class pla: MonoBehaviour
+public class pla
 {
-    void Start()
-    
-    { }
        public string playerName;
     public int health;
     public static int playerCount;
