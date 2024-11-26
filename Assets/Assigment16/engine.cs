@@ -13,7 +13,8 @@ public class engine : MonoBehaviour
         Character[] characters = { officer, soldier };
 
        for (int i = 0; i < characters.Length; i++){
-          characters[i].DisplayInfo();;
+          characters[i].DisplayInfo();
+          
        }
        officer.Attack(20,soldier,"shoot");
     }

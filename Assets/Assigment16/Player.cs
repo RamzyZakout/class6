@@ -15,5 +15,6 @@ this.Health=health;
             Health=100;
         }
         Debug.Log(Name +" "+Health);
+        
     }
 }
