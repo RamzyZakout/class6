@@ -12,6 +12,7 @@ public class GenericsTest : MonoBehaviour
     Debug.Log(save);
     string des=GameUtils.DescribeItem(save);
      Debug.Log(des);
+     
 }
 }
 }
