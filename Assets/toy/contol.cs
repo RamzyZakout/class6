@@ -1,16 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 public class contol : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
 
+        
+        
+        Camera.main.clearFlags = CameraClearFlags.SolidColor;
+        
+        // Change the background color to green
+        Camera.main.backgroundColor = Color.green;
+
     }
     public float moveSpeed = 2f;
     public float jamppower = 5f;
     public Vector3 scaleFactor = new Vector3(0.01f, 0.01f, 0.01f);
+    
 
     // Update is called once per frame
     void Update()
