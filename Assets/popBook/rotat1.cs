@@ -19,7 +19,7 @@ public class rotat1 : MonoBehaviour
          if (currentAngle < 180f)
         {
             
-            float angleToAdd = speed * Time.deltaTime*2;
+            float angleToAdd = speed * Time.deltaTime*3;
 
             
             if (currentAngle + angleToAdd > 180f)
