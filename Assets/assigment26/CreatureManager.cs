@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+namespace Assigment26{
 public class CreatureManager : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -40,5 +40,6 @@ public class CreatureManager : MonoBehaviour
         
         
     }
+}
 }
 }

@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+namespace Assigment26{
 public class interfaces 
 {
     public interface IRunnable{
@@ -49,5 +49,6 @@ public interface ISwimmable{
     Debug.Log("A creature makes a sound");
    }
     
+}
 }
 }
